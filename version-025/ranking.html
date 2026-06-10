@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>热播榜 - 精品高清影视</title>
+    <meta name="description" content="热播榜按影片推荐权重、年份与内容热度整理，提供高清影视热门入口。">
+    <meta name="keywords" content="欧美,精品,高清视频,免费观看,精选,海量,在线播放,热播榜,排行榜,推荐">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+<body>
+    <header class="site-header" data-site-header>
+        <div class="nav-wrap">
+            <a class="brand" href="./index.html" aria-label="精品高清影视">
+                <span class="brand-mark">▶</span>
+                <span>精品高清影视</span>
+            </a>
+            <nav class="desktop-nav">
+                <a href="./index.html">首页</a>
+                <a href="./categories.html">分类</a>
+                <a href="./movies.html">片库</a>
+                <a href="./ranking.html">热播榜</a>
+                <div class="nav-dropdown">
+                    <button type="button">频道</button>
+                    <div class="dropdown-panel">
+                        <a href="./category/europe-us.html">欧美精选</a>
+                        <a href="./category/hd-movies.html">高清电影</a>
+                        <a href="./category/hot-series.html">热播剧集</a>
+                        <a href="./category/action-thriller.html">动作惊悚</a>
+                        <a href="./category/romance-youth.html">爱情青春</a>
+                        <a href="./category/comedy-variety.html">喜剧精选</a>
+                        <a href="./category/drama-classics.html">剧情佳作</a>
+                        <a href="./category/sci-fi-fantasy.html">科幻奇幻</a>
+                        <a href="./category/asian-theater.html">亚洲剧场</a>
+                        <a href="./category/annual-trending.html">年度热榜</a>
+                    </div>
+                </div>
+            </nav>
+            <form class="top-search" action="./movies.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、类型、地区" aria-label="搜索影片">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="mobile-menu-btn" type="button" data-menu-toggle aria-label="打开菜单">☰</button>
+        </div>
+        <div class="mobile-nav" data-mobile-nav>
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类总览</a>
+            <a href="./movies.html">完整片库</a>
+            <a href="./ranking.html">热播榜</a>
+                <a href="./category/europe-us.html">欧美精选</a>
+                <a href="./category/hd-movies.html">高清电影</a>
+                <a href="./category/hot-series.html">热播剧集</a>
+                <a href="./category/action-thriller.html">动作惊悚</a>
+                <a href="./category/romance-youth.html">爱情青春</a>
+                <a href="./category/comedy-variety.html">喜剧精选</a>
+                <a href="./category/drama-classics.html">剧情佳作</a>
+                <a href="./category/sci-fi-fantasy.html">科幻奇幻</a>
+                <a href="./category/asian-theater.html">亚洲剧场</a>
+                <a href="./category/annual-trending.html">年度热榜</a>
+            <form class="mobile-search" action="./movies.html" method="get">
+                <input type="search" name="q" placeholder="输入关键词搜索">
+                <button type="submit">搜索</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero rank-hero">
+            <div>
+                <span>Trending</span>
+                <h1>热播榜</h1>
+                <p>从推荐权重、题材关注度和年份排序中筛选高热内容，快速进入详情播放页。</p>
+            </div>
+        </section>
+        <section class="filter-panel" data-filter-panel>
+            <div class="filter-heading">
+                <h2>搜索筛选</h2>
+                <p>输入片名、地区、类型或标签，快速定位想看的内容。</p>
+            </div>
+            <div class="filter-controls">
+                <label class="filter-keyword">
+                    <span>关键词</span>
+                    <input type="search" data-filter-keyword placeholder="搜索影片名称、简介、标签">
+                </label>
+                <label>
+                    <span>年份</span>
+                    <select data-filter-year>
+                        <option value="">全部年份</option>
+                            <option value="2030">2030</option>
+                            <option value="2029">2029</option>
+                            <option value="2028">2028</option>
+                            <option value="2027">2027</option>
+                            <option value="2026">2026</option>
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                            <option value="2007">2007</option>
+                            <option value="2006">2006</option>
+                            <option value="2005">2005</option>
+                            <option value="2004">2004</option>
+                            <option value="2003">2003</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="1999">1999</option>
+                            <option value="1998">1998</option>
+                            <option value="1997">1997</option>
+                            <option value="1996">1996</option>
+                            <option value="1995">1995</option>
+                            <option value="1994">1994</option>
+                            <option value="1993">1993</option>
+                            <option value="1992">1992</option>
+                            <option value="1991">1991</option>
+                            <option value="1990">1990</option>
+                            <option value="1989">1989</option>
+                            <option value="1988">1988</option>
+                            <option value="1987">1987</option>
+                            <option value="1986">1986</option>
+                            <option value="1984">1984</option>
+                            <option value="1983">1983</option>
+                            <option value="1982">1982</option>
+                            <option value="1980">1980</option>
+                            <option value="1979">1979</option>
+                            <option value="1978">1978</option>
+                            <option value="1977">1977</option>
+                            <option value="1976">1976</option>
+                            <option value="1975">1975</option>
+                            <option value="1974">1974</option>
+                            <option value="1972">1972</option>
+                            <option value="1970">1970</option>
+                            <option value="1968">1968</option>
+                            <option value="1967">1967</option>
+                            <option value="1966">1966</option>
+                            <option value="1965">1965</option>
+                            <option value="1960">1960</option>
+                            <option value="1954">1954</option>
+                            <option value="1949">1949</option>
+                            <option value="1944">1944</option>
+                            <option value="1941">1941</option>
+                            <option value="1932">1932</option>
+                            <option value="1931">1931</option>
+                            <option value="1927">1927</option>
+                    </select>
+                </label>
+                <label>
+                    <span>类型</span>
+                    <select data-filter-type>
+                        <option value="">全部类型</option>
+                            <option value="Movie">Movie</option>
+                            <option value="OVA">OVA</option>
+                            <option value="TV Series">TV Series</option>
+                            <option value="TV剧集">TV剧集</option>
+                            <option value="TV动画">TV动画</option>
+                            <option value="剧场版动画">剧场版动画</option>
+                            <option value="剧情片">剧情片</option>
+                            <option value="剧集">剧集</option>
+                            <option value="剧集 (12集)">剧集 (12集)</option>
+                            <option value="剧集 (共10集)">剧集 (共10集)</option>
+                            <option value="剧集 (动画)">剧集 (动画)</option>
+                            <option value="剧集 年代, 剧情">剧集 年代, 剧情</option>
+                            <option value="剧集/动画">剧集/动画</option>
+                            <option value="剧集（动画）">剧集（动画）</option>
+                            <option value="动漫">动漫</option>
+                            <option value="动漫剧集">动漫剧集</option>
+                            <option value="动画">动画</option>
+                            <option value="动画 / 电影">动画 / 电影</option>
+                            <option value="动画剧集">动画剧集</option>
+                            <option value="动画剧集 (11集)">动画剧集 (11集)</option>
+                            <option value="动画特典">动画特典</option>
+                            <option value="动画电影">动画电影</option>
+                            <option value="微短剧">微短剧</option>
+                            <option value="情景喜剧">情景喜剧</option>
+                            <option value="电影">电影</option>
+                            <option value="电影 (动画)">电影 (动画)</option>
+                            <option value="电影 / 动画">电影 / 动画</option>
+                            <option value="电影 / 短片">电影 / 短片</option>
+                            <option value="电影 / 脱口秀纪实">电影 / 脱口秀纪实</option>
+                            <option value="电影 喜剧、动作">电影 喜剧、动作</option>
+                            <option value="电影 惊悚, 犯罪, 剧情">电影 惊悚, 犯罪, 剧情</option>
+                            <option value="电影 爱情、文艺">电影 爱情、文艺</option>
+                            <option value="电影, 喜剧">电影, 喜剧</option>
+                            <option value="电影/动画">电影/动画</option>
+                            <option value="电影纪录片">电影纪录片</option>
+                            <option value="电影（动画）">电影（动画）</option>
+                            <option value="电视剧">电视剧</option>
+                            <option value="电视剧 (40集)">电视剧 (40集)</option>
+                            <option value="电视剧 (剧集)">电视剧 (剧集)</option>
+                            <option value="电视剧 (短剧)">电视剧 (短剧)</option>
+                            <option value="电视剧 / 传记">电视剧 / 传记</option>
+                            <option value="电视剧 / 网剧">电视剧 / 网剧</option>
+                            <option value="电视剧集">电视剧集</option>
+                            <option value="真人秀">真人秀</option>
+                            <option value="短片">短片</option>
+                            <option value="纪录片">纪录片</option>
+                            <option value="纪录片剧集">纪录片剧集</option>
+                            <option value="综艺">综艺</option>
+                            <option value="综艺 / 剧集">综艺 / 剧集</option>
+                            <option value="综艺 / 演唱会">综艺 / 演唱会</option>
+                            <option value="综艺 / 脱口秀">综艺 / 脱口秀</option>
+                            <option value="综艺/晚会">综艺/晚会</option>
+                            <option value="综艺/音乐会">综艺/音乐会</option>
+                            <option value="网剧">网剧</option>
+                            <option value="网络剧">网络剧</option>
+                            <option value="网络电影">网络电影</option>
+                            <option value="网络短剧">网络短剧</option>
+                            <option value="脱口秀专场">脱口秀专场</option>
+                            <option value="脱口秀特辑">脱口秀特辑</option>
+                            <option value="迷你剧">迷你剧</option>
+                    </select>
+                </label>
+                    <label>
+                        <span>频道</span>
+                        <select data-filter-category>
+                            <option value="">全部频道</option>
+                            <option value="欧美精选">欧美精选</option>
+                            <option value="高清电影">高清电影</option>
+                            <option value="热播剧集">热播剧集</option>
+                            <option value="动作惊悚">动作惊悚</option>
+                            <option value="爱情青春">爱情青春</option>
+                            <option value="喜剧精选">喜剧精选</option>
+                            <option value="剧情佳作">剧情佳作</option>
+                            <option value="科幻奇幻">科幻奇幻</option>
+                            <option value="亚洲剧场">亚洲剧场</option>
+                            <option value="年度热榜">年度热榜</option>
+                        </select>
+                    </label>
+                <button type="button" data-filter-reset>重置</button>
+            </div>
+        </section>
+        <section class="content-section">
+            <div class="rank-list large-rank-list" data-card-grid>
+                <a class="rank-item" href="./movie/movie-0479.html" data-movie-card data-title="地狱猎手" data-search="地狱猎手 墨西哥 动作, 奇幻, 西部 高清电影" data-year="2025" data-type="剧集" data-category="高清电影">
+                    <span class="rank-number">01</span>
+                    <span class="rank-cover"><img src="./29.jpg" alt="地狱猎手" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>地狱猎手</strong>
+                        <em>2025 · 墨西哥 · 动作, 奇幻, 西部</em>
+                    </span>
+                    <span class="rank-score">热度 99.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0754.html" data-movie-card data-title="陪她一会儿" data-search="陪她一会儿 中国台湾 剧情 / 家庭 动作惊悚" data-year="2027" data-type="电影" data-category="动作惊悚">
+                    <span class="rank-number">02</span>
+                    <span class="rank-cover"><img src="./4.jpg" alt="陪她一会儿" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>陪她一会儿</strong>
+                        <em>2027 · 中国台湾 · 剧情 / 家庭</em>
+                    </span>
+                    <span class="rank-score">热度 99.8</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0590.html" data-movie-card data-title="十二怒汉" data-search="十二怒汉 美国 剧情， 惊悚， 法律 年度热榜" data-year="2025" data-type="电影" data-category="年度热榜">
+                    <span class="rank-number">03</span>
+                    <span class="rank-cover"><img src="./140.jpg" alt="十二怒汉" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>十二怒汉</strong>
+                        <em>2025 · 美国 · 剧情， 惊悚， 法律</em>
+                    </span>
+                    <span class="rank-score">热度 99.8</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0874.html" data-movie-card data-title="天官赐福动漫日语" data-search="天官赐福动漫日语 日本 奇幻 / 古装 / 耽美 热播剧集" data-year="2024" data-type="动漫" data-category="热播剧集">
+                    <span class="rank-number">04</span>
+                    <span class="rank-cover"><img src="./124.jpg" alt="天官赐福动漫日语" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>天官赐福动漫日语</strong>
+                        <em>2024 · 日本 · 奇幻 / 古装 / 耽美</em>
+                    </span>
+                    <span class="rank-score">热度 99.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0244.html" data-movie-card data-title="妻子的浪漫旅行第六季" data-search="妻子的浪漫旅行第六季 中国大陆 真人秀， 情感 爱情青春" data-year="2025" data-type="综艺" data-category="爱情青春">
+                    <span class="rank-number">05</span>
+                    <span class="rank-cover"><img src="./94.jpg" alt="妻子的浪漫旅行第六季" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>妻子的浪漫旅行第六季</strong>
+                        <em>2025 · 中国大陆 · 真人秀， 情感</em>
+                    </span>
+                    <span class="rank-score">热度 99.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0230.html" data-movie-card data-title="调查者：仅供执勤" data-search="调查者：仅供执勤 中国大陆 悬疑, 刑侦, 职场 动作惊悚" data-year="2027" data-type="剧集" data-category="动作惊悚">
+                    <span class="rank-number">06</span>
+                    <span class="rank-cover"><img src="./80.jpg" alt="调查者：仅供执勤" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>调查者：仅供执勤</strong>
+                        <em>2027 · 中国大陆 · 悬疑, 刑侦, 职场</em>
+                    </span>
+                    <span class="rank-score">热度 99.6</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1399.html" data-movie-card data-title="72小时" data-search="72小时 韩国 犯罪/惊悚 喜剧精选" data-year="2025" data-type="电影" data-category="喜剧精选">
+                    <span class="rank-number">07</span>
+                    <span class="rank-cover"><img src="./49.jpg" alt="72小时" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>72小时</strong>
+                        <em>2025 · 韩国 · 犯罪/惊悚</em>
+                    </span>
+                    <span class="rank-score">热度 99.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0201.html" data-movie-card data-title="窥镜" data-search="窥镜 韩国 惊悚, 悬疑 科幻奇幻" data-year="2024" data-type="电影" data-category="科幻奇幻">
+                    <span class="rank-number">08</span>
+                    <span class="rank-cover"><img src="./51.jpg" alt="窥镜" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>窥镜</strong>
+                        <em>2024 · 韩国 · 惊悚, 悬疑</em>
+                    </span>
+                    <span class="rank-score">热度 99.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1666.html" data-movie-card data-title="黑湖妖潭" data-search="黑湖妖潭 美国 恐怖 / 奇幻 剧情佳作" data-year="2026" data-type="电影" data-category="剧情佳作">
+                    <span class="rank-number">09</span>
+                    <span class="rank-cover"><img src="./16.jpg" alt="黑湖妖潭" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>黑湖妖潭</strong>
+                        <em>2026 · 美国 · 恐怖 / 奇幻</em>
+                    </span>
+                    <span class="rank-score">热度 99.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0596.html" data-movie-card data-title="特警云豹" data-search="特警云豹 中国台湾 动作 / 犯罪 高清电影" data-year="2025" data-type="电视剧" data-category="高清电影">
+                    <span class="rank-number">10</span>
+                    <span class="rank-cover"><img src="./146.jpg" alt="特警云豹" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>特警云豹</strong>
+                        <em>2025 · 中国台湾 · 动作 / 犯罪</em>
+                    </span>
+                    <span class="rank-score">热度 99.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0447.html" data-movie-card data-title="明星志愿" data-search="明星志愿 中国台湾 娱乐圈职场 热播剧集" data-year="2024" data-type="剧集" data-category="热播剧集">
+                    <span class="rank-number">11</span>
+                    <span class="rank-cover"><img src="./147.jpg" alt="明星志愿" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>明星志愿</strong>
+                        <em>2024 · 中国台湾 · 娱乐圈职场</em>
+                    </span>
+                    <span class="rank-score">热度 99.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0817.html" data-movie-card data-title="相思成云烟" data-search="相思成云烟 中国台湾 爱情、剧情、年代 高清电影" data-year="2023" data-type="电影" data-category="高清电影">
+                    <span class="rank-number">12</span>
+                    <span class="rank-cover"><img src="./67.jpg" alt="相思成云烟" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>相思成云烟</strong>
+                        <em>2023 · 中国台湾 · 爱情、剧情、年代</em>
+                    </span>
+                    <span class="rank-score">热度 99.8</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0266.html" data-movie-card data-title="租借女友第四季" data-search="租借女友第四季 日本 喜剧 / 爱情 / 生活 动作惊悚" data-year="2025" data-type="剧集" data-category="动作惊悚">
+                    <span class="rank-number">13</span>
+                    <span class="rank-cover"><img src="./116.jpg" alt="租借女友第四季" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>租借女友第四季</strong>
+                        <em>2025 · 日本 · 喜剧 / 爱情 / 生活</em>
+                    </span>
+                    <span class="rank-score">热度 99.6</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1264.html" data-movie-card data-title="玩转好莱坞" data-search="玩转好莱坞 美国 喜剧, 剧情 年度热榜" data-year="2025" data-type="电视剧" data-category="年度热榜">
+                    <span class="rank-number">14</span>
+                    <span class="rank-cover"><img src="./64.jpg" alt="玩转好莱坞" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>玩转好莱坞</strong>
+                        <em>2025 · 美国 · 喜剧, 剧情</em>
+                    </span>
+                    <span class="rank-score">热度 99.8</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1019.html" data-movie-card data-title="人类之子" data-search="人类之子 英国 / 美国 科幻 / 灾难 / 剧情 剧情佳作" data-year="2026" data-type="电影" data-category="剧情佳作">
+                    <span class="rank-number">15</span>
+                    <span class="rank-cover"><img src="./119.jpg" alt="人类之子" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>人类之子</strong>
+                        <em>2026 · 英国 / 美国 · 科幻 / 灾难 / 剧情</em>
+                    </span>
+                    <span class="rank-score">热度 99.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0231.html" data-movie-card data-title="奉天往事" data-search="奉天往事 中国大陆 喜剧, 悬疑, 历史 热播剧集" data-year="2019" data-type="电影" data-category="热播剧集">
+                    <span class="rank-number">16</span>
+                    <span class="rank-cover"><img src="./81.jpg" alt="奉天往事" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>奉天往事</strong>
+                        <em>2019 · 中国大陆 · 喜剧, 悬疑, 历史</em>
+                    </span>
+                    <span class="rank-score">热度 99.8</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0785.html" data-movie-card data-title="复出演唱！" data-search="复出演唱！ 中国大陆 音乐喜剧 热播剧集" data-year="2024" data-type="电影" data-category="热播剧集">
+                    <span class="rank-number">17</span>
+                    <span class="rank-cover"><img src="./35.jpg" alt="复出演唱！" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>复出演唱！</strong>
+                        <em>2024 · 中国大陆 · 音乐喜剧</em>
+                    </span>
+                    <span class="rank-score">热度 99.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0084.html" data-movie-card data-title="凹凸世界·新生" data-search="凹凸世界·新生 中国大陆 科幻 / 冒险 / 热血 动作惊悚" data-year="2023" data-type="动画剧集" data-category="动作惊悚">
+                    <span class="rank-number">18</span>
+                    <span class="rank-cover"><img src="./84.jpg" alt="凹凸世界·新生" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>凹凸世界·新生</strong>
+                        <em>2023 · 中国大陆 · 科幻 / 冒险 / 热血</em>
+                    </span>
+                    <span class="rank-score">热度 99.6</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0860.html" data-movie-card data-title="绝世武神第二季" data-search="绝世武神第二季 中国大陆 玄幻，热血，战斗 年度热榜" data-year="2024" data-type="动画剧集" data-category="年度热榜">
+                    <span class="rank-number">19</span>
+                    <span class="rank-cover"><img src="./110.jpg" alt="绝世武神第二季" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>绝世武神第二季</strong>
+                        <em>2024 · 中国大陆 · 玄幻，热血，战斗</em>
+                    </span>
+                    <span class="rank-score">热度 99.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0841.html" data-movie-card data-title="日落后之地" data-search="日落后之地 美国 科幻, 悬疑 喜剧精选" data-year="2026" data-type="电影" data-category="喜剧精选">
+                    <span class="rank-number">20</span>
+                    <span class="rank-cover"><img src="./91.jpg" alt="日落后之地" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>日落后之地</strong>
+                        <em>2026 · 美国 · 科幻, 悬疑</em>
+                    </span>
+                    <span class="rank-score">热度 99.6</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0142.html" data-movie-card data-title="圣诞佳丽" data-search="圣诞佳丽 加拿大 喜剧、爱情、节日 喜剧精选" data-year="2020" data-type="电影" data-category="喜剧精选">
+                    <span class="rank-number">21</span>
+                    <span class="rank-cover"><img src="./142.jpg" alt="圣诞佳丽" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>圣诞佳丽</strong>
+                        <em>2020 · 加拿大 · 喜剧、爱情、节日</em>
+                    </span>
+                    <span class="rank-score">热度 99.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0421.html" data-movie-card data-title="法式沙拉酱" data-search="法式沙拉酱 法国 喜剧 / 爱情 高清电影" data-year="2018" data-type="电影" data-category="高清电影">
+                    <span class="rank-number">22</span>
+                    <span class="rank-cover"><img src="./121.jpg" alt="法式沙拉酱" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>法式沙拉酱</strong>
+                        <em>2018 · 法国 · 喜剧 / 爱情</em>
+                    </span>
+                    <span class="rank-score">热度 99.8</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1005.html" data-movie-card data-title="黑白斗争" data-search="黑白斗争 美国 惊悚 / 犯罪 / 政治 动作惊悚" data-year="2025" data-type="剧集" data-category="动作惊悚">
+                    <span class="rank-number">23</span>
+                    <span class="rank-cover"><img src="./105.jpg" alt="黑白斗争" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>黑白斗争</strong>
+                        <em>2025 · 美国 · 惊悚 / 犯罪 / 政治</em>
+                    </span>
+                    <span class="rank-score">热度 99.6</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1490.html" data-movie-card data-title="欧东剧战" data-search="欧东剧战 中国大陆 悬疑 / 刑侦 动作惊悚" data-year="2024" data-type="剧集" data-category="动作惊悚">
+                    <span class="rank-number">24</span>
+                    <span class="rank-cover"><img src="./140.jpg" alt="欧东剧战" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>欧东剧战</strong>
+                        <em>2024 · 中国大陆 · 悬疑 / 刑侦</em>
+                    </span>
+                    <span class="rank-score">热度 99.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0789.html" data-movie-card data-title="公民露丝" data-search="公民露丝 美国 剧情, 传记 动作惊悚" data-year="2025" data-type="电影" data-category="动作惊悚">
+                    <span class="rank-number">25</span>
+                    <span class="rank-cover"><img src="./39.jpg" alt="公民露丝" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>公民露丝</strong>
+                        <em>2025 · 美国 · 剧情, 传记</em>
+                    </span>
+                    <span class="rank-score">热度 99.5</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1677.html" data-movie-card data-title="旱地复仇" data-search="旱地复仇 澳大利亚 惊悚, 西部 喜剧精选" data-year="2024" data-type="电影" data-category="喜剧精选">
+                    <span class="rank-number">26</span>
+                    <span class="rank-cover"><img src="./27.jpg" alt="旱地复仇" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>旱地复仇</strong>
+                        <em>2024 · 澳大利亚 · 惊悚, 西部</em>
+                    </span>
+                    <span class="rank-score">热度 99.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0484.html" data-movie-card data-title="纽约，纽约" data-search="纽约，纽约 美国 剧情, 音乐 高清电影" data-year="2025" data-type="剧集" data-category="高清电影">
+                    <span class="rank-number">27</span>
+                    <span class="rank-cover"><img src="./34.jpg" alt="纽约，纽约" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>纽约，纽约</strong>
+                        <em>2025 · 美国 · 剧情, 音乐</em>
+                    </span>
+                    <span class="rank-score">热度 99.4</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1963.html" data-movie-card data-title="剩女小爱" data-search="剩女小爱 中国香港 爱情 / 喜剧 / 剧情 年度热榜" data-year="2025" data-type="电影" data-category="年度热榜">
+                    <span class="rank-number">28</span>
+                    <span class="rank-cover"><img src="./13.jpg" alt="剩女小爱" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>剩女小爱</strong>
+                        <em>2025 · 中国香港 · 爱情 / 喜剧 / 剧情</em>
+                    </span>
+                    <span class="rank-score">热度 99.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0795.html" data-movie-card data-title="人鱼恋爱法则第一季" data-search="人鱼恋爱法则第一季 中国大陆 奇幻 / 爱情 / 喜剧 科幻奇幻" data-year="2024" data-type="电视剧 / 网剧" data-category="科幻奇幻">
+                    <span class="rank-number">29</span>
+                    <span class="rank-cover"><img src="./45.jpg" alt="人鱼恋爱法则第一季" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>人鱼恋爱法则第一季</strong>
+                        <em>2024 · 中国大陆 · 奇幻 / 爱情 / 喜剧</em>
+                    </span>
+                    <span class="rank-score">热度 99.5</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1106.html" data-movie-card data-title="缄默" data-search="缄默 德国 / 奥地利 剧情 / 惊悚 热播剧集" data-year="2025" data-type="电影" data-category="热播剧集">
+                    <span class="rank-number">30</span>
+                    <span class="rank-cover"><img src="./56.jpg" alt="缄默" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>缄默</strong>
+                        <em>2025 · 德国 / 奥地利 · 剧情 / 惊悚</em>
+                    </span>
+                    <span class="rank-score">热度 99.5</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1297.html" data-movie-card data-title="保姆大冒险" data-search="保姆大冒险 英国 动作 / 喜剧 爱情青春" data-year="2025" data-type="电影" data-category="爱情青春">
+                    <span class="rank-number">31</span>
+                    <span class="rank-cover"><img src="./97.jpg" alt="保姆大冒险" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>保姆大冒险</strong>
+                        <em>2025 · 英国 · 动作 / 喜剧</em>
+                    </span>
+                    <span class="rank-score">热度 99.5</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0999.html" data-movie-card data-title="大醉侠2002" data-search="大醉侠2002 中国 武侠 / 喜剧 / 古装 剧情佳作" data-year="2024" data-type="剧集" data-category="剧情佳作">
+                    <span class="rank-number">32</span>
+                    <span class="rank-cover"><img src="./99.jpg" alt="大醉侠2002" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>大醉侠2002</strong>
+                        <em>2024 · 中国 · 武侠 / 喜剧 / 古装</em>
+                    </span>
+                    <span class="rank-score">热度 99.4</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1792.html" data-movie-card data-title="哥哥的下午茶" data-search="哥哥的下午茶 中国大陆 剧情 / 家庭 年度热榜" data-year="2023" data-type="电影" data-category="年度热榜">
+                    <span class="rank-number">33</span>
+                    <span class="rank-cover"><img src="./142.jpg" alt="哥哥的下午茶" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>哥哥的下午茶</strong>
+                        <em>2023 · 中国大陆 · 剧情 / 家庭</em>
+                    </span>
+                    <span class="rank-score">热度 99.6</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0156.html" data-movie-card data-title="远山的红叶" data-search="远山的红叶 中国大陆 剧情 / 家庭 动作惊悚" data-year="2022" data-type="电影" data-category="动作惊悚">
+                    <span class="rank-number">34</span>
+                    <span class="rank-cover"><img src="./6.jpg" alt="远山的红叶" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>远山的红叶</strong>
+                        <em>2022 · 中国大陆 · 剧情 / 家庭</em>
+                    </span>
+                    <span class="rank-score">热度 99.3</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1044.html" data-movie-card data-title="紧急救援" data-search="紧急救援 中国大陆 动作，灾难 高清电影" data-year="2020" data-type="电影" data-category="高清电影">
+                    <span class="rank-number">35</span>
+                    <span class="rank-cover"><img src="./144.jpg" alt="紧急救援" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>紧急救援</strong>
+                        <em>2020 · 中国大陆 · 动作，灾难</em>
+                    </span>
+                    <span class="rank-score">热度 99.5</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1791.html" data-movie-card data-title="脂粉拳王" data-search="脂粉拳王 中国香港 / 泰国 动作、剧情、体育 热播剧集" data-year="2026" data-type="电影" data-category="热播剧集">
+                    <span class="rank-number">36</span>
+                    <span class="rank-cover"><img src="./141.jpg" alt="脂粉拳王" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>脂粉拳王</strong>
+                        <em>2026 · 中国香港 / 泰国 · 动作、剧情、体育</em>
+                    </span>
+                    <span class="rank-score">热度 99.4</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1532.html" data-movie-card data-title="荆棘屋圣诞" data-search="荆棘屋圣诞 英国 悬疑、剧情、家庭 科幻奇幻" data-year="2024" data-type="电视剧" data-category="科幻奇幻">
+                    <span class="rank-number">37</span>
+                    <span class="rank-cover"><img src="./32.jpg" alt="荆棘屋圣诞" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>荆棘屋圣诞</strong>
+                        <em>2024 · 英国 · 悬疑、剧情、家庭</em>
+                    </span>
+                    <span class="rank-score">热度 99.4</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1985.html" data-movie-card data-title="我的街区第二季" data-search="我的街区第二季 美国 喜剧 / 剧情 剧情佳作" data-year="2026" data-type="剧集" data-category="剧情佳作">
+                    <span class="rank-number">38</span>
+                    <span class="rank-cover"><img src="./35.jpg" alt="我的街区第二季" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>我的街区第二季</strong>
+                        <em>2026 · 美国 · 喜剧 / 剧情</em>
+                    </span>
+                    <span class="rank-score">热度 99.4</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1080.html" data-movie-card data-title="猫和老鼠：间谍使命" data-search="猫和老鼠：间谍使命 美国 喜剧、动画、动作 亚洲剧场" data-year="2024" data-type="电影" data-category="亚洲剧场">
+                    <span class="rank-number">39</span>
+                    <span class="rank-cover"><img src="./30.jpg" alt="猫和老鼠：间谍使命" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>猫和老鼠：间谍使命</strong>
+                        <em>2024 · 美国 · 喜剧、动画、动作</em>
+                    </span>
+                    <span class="rank-score">热度 99.3</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0677.html" data-movie-card data-title="在/其中" data-search="在/其中 台湾 剧情 / 悬疑 欧美精选" data-year="2025" data-type="电影" data-category="欧美精选">
+                    <span class="rank-number">40</span>
+                    <span class="rank-cover"><img src="./77.jpg" alt="在/其中" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>在/其中</strong>
+                        <em>2025 · 台湾 · 剧情 / 悬疑</em>
+                    </span>
+                    <span class="rank-score">热度 99.1</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1497.html" data-movie-card data-title="憨媳当家" data-search="憨媳当家 中国大陆 喜剧, 家庭, 爱情 欧美精选" data-year="2009" data-type="电视剧" data-category="欧美精选">
+                    <span class="rank-number">41</span>
+                    <span class="rank-cover"><img src="./147.jpg" alt="憨媳当家" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>憨媳当家</strong>
+                        <em>2009 · 中国大陆 · 喜剧, 家庭, 爱情</em>
+                    </span>
+                    <span class="rank-score">热度 99.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0215.html" data-movie-card data-title="完美绝配" data-search="完美绝配 美国 喜剧, 爱情 爱情青春" data-year="2025" data-type="电影" data-category="爱情青春">
+                    <span class="rank-number">42</span>
+                    <span class="rank-cover"><img src="./65.jpg" alt="完美绝配" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>完美绝配</strong>
+                        <em>2025 · 美国 · 喜剧, 爱情</em>
+                    </span>
+                    <span class="rank-score">热度 99.0</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1128.html" data-movie-card data-title="隐藏的情人" data-search="隐藏的情人 韩国 悬疑爱情 剧情佳作" data-year="2024" data-type="剧集" data-category="剧情佳作">
+                    <span class="rank-number">43</span>
+                    <span class="rank-cover"><img src="./78.jpg" alt="隐藏的情人" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>隐藏的情人</strong>
+                        <em>2024 · 韩国 · 悬疑爱情</em>
+                    </span>
+                    <span class="rank-score">热度 99.2</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0944.html" data-movie-card data-title="刑事侦缉档案粤语" data-search="刑事侦缉档案粤语 中国香港 悬疑, 犯罪, 刑侦 科幻奇幻" data-year="2023" data-type="剧集" data-category="科幻奇幻">
+                    <span class="rank-number">44</span>
+                    <span class="rank-cover"><img src="./44.jpg" alt="刑事侦缉档案粤语" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>刑事侦缉档案粤语</strong>
+                        <em>2023 · 中国香港 · 悬疑, 犯罪, 刑侦</em>
+                    </span>
+                    <span class="rank-score">热度 99.2</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1634.html" data-movie-card data-title="仇杀病房" data-search="仇杀病房 中国香港 犯罪 / 惊悚 喜剧精选" data-year="2026" data-type="电影" data-category="喜剧精选">
+                    <span class="rank-number">45</span>
+                    <span class="rank-cover"><img src="./134.jpg" alt="仇杀病房" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>仇杀病房</strong>
+                        <em>2026 · 中国香港 · 犯罪 / 惊悚</em>
+                    </span>
+                    <span class="rank-score">热度 99.2</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0329.html" data-movie-card data-title="度假营的自白" data-search="度假营的自白 韩国 悬疑 / 惊悚 / 校园 爱情青春" data-year="2024" data-type="电视剧" data-category="爱情青春">
+                    <span class="rank-number">46</span>
+                    <span class="rank-cover"><img src="./29.jpg" alt="度假营的自白" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>度假营的自白</strong>
+                        <em>2024 · 韩国 · 悬疑 / 惊悚 / 校园</em>
+                    </span>
+                    <span class="rank-score">热度 99.0</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0824.html" data-movie-card data-title="家里蹲吸血姬的苦闷" data-search="家里蹲吸血姬的苦闷 日本 喜剧，奇幻，日常 热播剧集" data-year="2023" data-type="动漫剧集" data-category="热播剧集">
+                    <span class="rank-number">47</span>
+                    <span class="rank-cover"><img src="./74.jpg" alt="家里蹲吸血姬的苦闷" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>家里蹲吸血姬的苦闷</strong>
+                        <em>2023 · 日本 · 喜剧，奇幻，日常</em>
+                    </span>
+                    <span class="rank-score">热度 99.1</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0644.html" data-movie-card data-title="蠢蛋搞怪到永远4.5" data-search="蠢蛋搞怪到永远4.5 美国 纪录片 / 喜剧 / 动作 热播剧集" data-year="2022" data-type="电影" data-category="热播剧集">
+                    <span class="rank-number">48</span>
+                    <span class="rank-cover"><img src="./44.jpg" alt="蠢蛋搞怪到永远4.5" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>蠢蛋搞怪到永远4.5</strong>
+                        <em>2022 · 美国 · 纪录片 / 喜剧 / 动作</em>
+                    </span>
+                    <span class="rank-score">热度 99.1</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0075.html" data-movie-card data-title="成龙的特技" data-search="成龙的特技 香港 纪录片, 动作, 传记 亚洲剧场" data-year="2024" data-type="纪录片" data-category="亚洲剧场">
+                    <span class="rank-number">49</span>
+                    <span class="rank-cover"><img src="./75.jpg" alt="成龙的特技" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>成龙的特技</strong>
+                        <em>2024 · 香港 · 纪录片, 动作, 传记</em>
+                    </span>
+                    <span class="rank-score">热度 98.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0672.html" data-movie-card data-title="黑道家族 第四季" data-search="黑道家族 第四季 美国 剧情, 犯罪 爱情青春" data-year="2002" data-type="剧集" data-category="爱情青春">
+                    <span class="rank-number">50</span>
+                    <span class="rank-cover"><img src="./72.jpg" alt="黑道家族 第四季" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>黑道家族 第四季</strong>
+                        <em>2002 · 美国 · 剧情, 犯罪</em>
+                    </span>
+                    <span class="rank-score">热度 99.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1474.html" data-movie-card data-title="纽约转角遇到爱" data-search="纽约转角遇到爱 美国 爱情 / 喜剧 热播剧集" data-year="2018" data-type="电影" data-category="热播剧集">
+                    <span class="rank-number">51</span>
+                    <span class="rank-cover"><img src="./124.jpg" alt="纽约转角遇到爱" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>纽约转角遇到爱</strong>
+                        <em>2018 · 美国 · 爱情 / 喜剧</em>
+                    </span>
+                    <span class="rank-score">热度 99.4</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1281.html" data-movie-card data-title="惹火女色狼" data-search="惹火女色狼 中国香港 惊悚 / 悬疑 动作惊悚" data-year="2024" data-type="电影" data-category="动作惊悚">
+                    <span class="rank-number">52</span>
+                    <span class="rank-cover"><img src="./81.jpg" alt="惹火女色狼" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>惹火女色狼</strong>
+                        <em>2024 · 中国香港 · 惊悚 / 悬疑</em>
+                    </span>
+                    <span class="rank-score">热度 99.1</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1295.html" data-movie-card data-title="山多尼卡斯先生" data-search="山多尼卡斯先生 英国 悬疑、惊悚 年度热榜" data-year="2024" data-type="电视剧" data-category="年度热榜">
+                    <span class="rank-number">53</span>
+                    <span class="rank-cover"><img src="./95.jpg" alt="山多尼卡斯先生" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>山多尼卡斯先生</strong>
+                        <em>2024 · 英国 · 悬疑、惊悚</em>
+                    </span>
+                    <span class="rank-score">热度 99.1</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1194.html" data-movie-card data-title="迪厅孩童" data-search="迪厅孩童 中国 剧情 / 青春 高清电影" data-year="2021" data-type="电影" data-category="高清电影">
+                    <span class="rank-number">54</span>
+                    <span class="rank-cover"><img src="./144.jpg" alt="迪厅孩童" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>迪厅孩童</strong>
+                        <em>2021 · 中国 · 剧情 / 青春</em>
+                    </span>
+                    <span class="rank-score">热度 99.2</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1930.html" data-movie-card data-title="惊悚游戏" data-search="惊悚游戏 美国 悬疑, 惊悚 剧情佳作" data-year="2027" data-type="剧集" data-category="剧情佳作">
+                    <span class="rank-number">55</span>
+                    <span class="rank-cover"><img src="./130.jpg" alt="惊悚游戏" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>惊悚游戏</strong>
+                        <em>2027 · 美国 · 悬疑, 惊悚</em>
+                    </span>
+                    <span class="rank-score">热度 99.1</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0102.html" data-movie-card data-title="幽灵归来时" data-search="幽灵归来时 韩国 恐怖, 悬疑, 奇幻 欧美精选" data-year="2023" data-type="电影" data-category="欧美精选">
+                    <span class="rank-number">56</span>
+                    <span class="rank-cover"><img src="./102.jpg" alt="幽灵归来时" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>幽灵归来时</strong>
+                        <em>2023 · 韩国 · 恐怖, 悬疑, 奇幻</em>
+                    </span>
+                    <span class="rank-score">热度 98.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1389.html" data-movie-card data-title="侬本多情粤语" data-search="侬本多情粤语 中国香港 爱情、剧情、年代 爱情青春" data-year="2024" data-type="剧集" data-category="爱情青春">
+                    <span class="rank-number">57</span>
+                    <span class="rank-cover"><img src="./39.jpg" alt="侬本多情粤语" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>侬本多情粤语</strong>
+                        <em>2024 · 中国香港 · 爱情、剧情、年代</em>
+                    </span>
+                    <span class="rank-score">热度 99.1</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1008.html" data-movie-card data-title="神秘之法" data-search="神秘之法 日本 动画、科幻、宗教 热播剧集" data-year="2012" data-type="电影" data-category="热播剧集">
+                    <span class="rank-number">58</span>
+                    <span class="rank-cover"><img src="./108.jpg" alt="神秘之法" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>神秘之法</strong>
+                        <em>2012 · 日本 · 动画、科幻、宗教</em>
+                    </span>
+                    <span class="rank-score">热度 99.5</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0657.html" data-movie-card data-title="报告王爷，王妃是只猫2" data-search="报告王爷，王妃是只猫2 中国大陆 古装、奇幻、爱情 科幻奇幻" data-year="2025" data-type="网络剧" data-category="科幻奇幻">
+                    <span class="rank-number">59</span>
+                    <span class="rank-cover"><img src="./57.jpg" alt="报告王爷，王妃是只猫2" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>报告王爷，王妃是只猫2</strong>
+                        <em>2025 · 中国大陆 · 古装、奇幻、爱情</em>
+                    </span>
+                    <span class="rank-score">热度 98.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0007.html" data-movie-card data-title="爱我一下·夏" data-search="爱我一下·夏 泰国 爱情 / 青春 / 同性 喜剧精选" data-year="2026" data-type="剧集 (12集)" data-category="喜剧精选">
+                    <span class="rank-number">60</span>
+                    <span class="rank-cover"><img src="./7.jpg" alt="爱我一下·夏" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>爱我一下·夏</strong>
+                        <em>2026 · 泰国 · 爱情 / 青春 / 同性</em>
+                    </span>
+                    <span class="rank-score">热度 98.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0595.html" data-movie-card data-title="137号案件" data-search="137号案件 日本 悬疑 / 犯罪 喜剧精选" data-year="2026" data-type="电影" data-category="喜剧精选">
+                    <span class="rank-number">61</span>
+                    <span class="rank-cover"><img src="./145.jpg" alt="137号案件" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>137号案件</strong>
+                        <em>2026 · 日本 · 悬疑 / 犯罪</em>
+                    </span>
+                    <span class="rank-score">热度 98.8</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1635.html" data-movie-card data-title="本色" data-search="本色 中国大陆 刑侦悬疑 动作惊悚" data-year="2026" data-type="剧集" data-category="动作惊悚">
+                    <span class="rank-number">62</span>
+                    <span class="rank-cover"><img src="./135.jpg" alt="本色" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>本色</strong>
+                        <em>2026 · 中国大陆 · 刑侦悬疑</em>
+                    </span>
+                    <span class="rank-score">热度 99.0</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1874.html" data-movie-card data-title="一个叫欧维的男人决定去死" data-search="一个叫欧维的男人决定去死 瑞典 剧情, 喜剧 喜剧精选" data-year="2022" data-type="电影" data-category="喜剧精选">
+                    <span class="rank-number">63</span>
+                    <span class="rank-cover"><img src="./74.jpg" alt="一个叫欧维的男人决定去死" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>一个叫欧维的男人决定去死</strong>
+                        <em>2022 · 瑞典 · 剧情, 喜剧</em>
+                    </span>
+                    <span class="rank-score">热度 99.2</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0950.html" data-movie-card data-title="法医密码" data-search="法医密码 中国大陆 悬疑 / 犯罪 喜剧精选" data-year="2024" data-type="剧集" data-category="喜剧精选">
+                    <span class="rank-number">64</span>
+                    <span class="rank-cover"><img src="./50.jpg" alt="法医密码" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>法医密码</strong>
+                        <em>2024 · 中国大陆 · 悬疑 / 犯罪</em>
+                    </span>
+                    <span class="rank-score">热度 98.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1738.html" data-movie-card data-title="偷车贼" data-search="偷车贼 法国 剧情 / 犯罪 / 家庭 欧美精选" data-year="2023" data-type="电影" data-category="欧美精选">
+                    <span class="rank-number">65</span>
+                    <span class="rank-cover"><img src="./88.jpg" alt="偷车贼" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>偷车贼</strong>
+                        <em>2023 · 法国 · 剧情 / 犯罪 / 家庭</em>
+                    </span>
+                    <span class="rank-score">热度 99.1</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1737.html" data-movie-card data-title="故剑长情" data-search="故剑长情 中国大陆 武侠, 爱情 亚洲剧场" data-year="2025" data-type="电影" data-category="亚洲剧场">
+                    <span class="rank-number">66</span>
+                    <span class="rank-cover"><img src="./87.jpg" alt="故剑长情" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>故剑长情</strong>
+                        <em>2025 · 中国大陆 · 武侠, 爱情</em>
+                    </span>
+                    <span class="rank-score">热度 99.0</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1330.html" data-movie-card data-title="我们" data-search="我们 中国大陆 剧情 / 家庭 科幻奇幻" data-year="2023" data-type="电影" data-category="科幻奇幻">
+                    <span class="rank-number">67</span>
+                    <span class="rank-cover"><img src="./130.jpg" alt="我们" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>我们</strong>
+                        <em>2023 · 中国大陆 · 剧情 / 家庭</em>
+                    </span>
+                    <span class="rank-score">热度 99.0</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0180.html" data-movie-card data-title="法不容情" data-search="法不容情 中国大陆 律政，悬疑，反腐 爱情青春" data-year="2024" data-type="电视剧" data-category="爱情青春">
+                    <span class="rank-number">68</span>
+                    <span class="rank-cover"><img src="./30.jpg" alt="法不容情" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>法不容情</strong>
+                        <em>2024 · 中国大陆 · 律政，悬疑，反腐</em>
+                    </span>
+                    <span class="rank-score">热度 98.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0797.html" data-movie-card data-title="武映三千道" data-search="武映三千道 中国大陆 动画/玄幻/修仙 亚洲剧场" data-year="2022" data-type="剧集/动画" data-category="亚洲剧场">
+                    <span class="rank-number">69</span>
+                    <span class="rank-cover"><img src="./47.jpg" alt="武映三千道" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>武映三千道</strong>
+                        <em>2022 · 中国大陆 · 动画/玄幻/修仙</em>
+                    </span>
+                    <span class="rank-score">热度 98.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0829.html" data-movie-card data-title="睡睡你的爱睡睡我的爱" data-search="睡睡你的爱睡睡我的爱 中国台湾 爱情 / 喜剧 亚洲剧场" data-year="2004" data-type="电影" data-category="亚洲剧场">
+                    <span class="rank-number">70</span>
+                    <span class="rank-cover"><img src="./79.jpg" alt="睡睡你的爱睡睡我的爱" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>睡睡你的爱睡睡我的爱</strong>
+                        <em>2004 · 中国台湾 · 爱情 / 喜剧</em>
+                    </span>
+                    <span class="rank-score">热度 99.6</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0296.html" data-movie-card data-title="乡村风云" data-search="乡村风云 中国大陆 剧情， 农村， 创业 科幻奇幻" data-year="2019" data-type="电视剧" data-category="科幻奇幻">
+                    <span class="rank-number">71</span>
+                    <span class="rank-cover"><img src="./146.jpg" alt="乡村风云" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>乡村风云</strong>
+                        <em>2019 · 中国大陆 · 剧情， 农村， 创业</em>
+                    </span>
+                    <span class="rank-score">热度 98.8</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1837.html" data-movie-card data-title="出轨幻想" data-search="出轨幻想 法国 / 比利时 剧情 / 爱情 / 心理 喜剧精选" data-year="2024" data-type="电影" data-category="喜剧精选">
+                    <span class="rank-number">72</span>
+                    <span class="rank-cover"><img src="./37.jpg" alt="出轨幻想" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>出轨幻想</strong>
+                        <em>2024 · 法国 / 比利时 · 剧情 / 爱情 / 心理</em>
+                    </span>
+                    <span class="rank-score">热度 98.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0477.html" data-movie-card data-title="血案重重" data-search="血案重重 中国大陆 悬疑 / 犯罪 / 刑侦 爱情青春" data-year="2022" data-type="电视剧" data-category="爱情青春">
+                    <span class="rank-number">73</span>
+                    <span class="rank-cover"><img src="./27.jpg" alt="血案重重" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>血案重重</strong>
+                        <em>2022 · 中国大陆 · 悬疑 / 犯罪 / 刑侦</em>
+                    </span>
+                    <span class="rank-score">热度 98.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1187.html" data-movie-card data-title="失踪时刻" data-search="失踪时刻 美国 悬疑 / 犯罪 爱情青春" data-year="2025" data-type="电影" data-category="爱情青春">
+                    <span class="rank-number">74</span>
+                    <span class="rank-cover"><img src="./137.jpg" alt="失踪时刻" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>失踪时刻</strong>
+                        <em>2025 · 美国 · 悬疑 / 犯罪</em>
+                    </span>
+                    <span class="rank-score">热度 98.7</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1964.html" data-movie-card data-title="余额不足" data-search="余额不足 中国大陆 剧情 / 喜剧 喜剧精选" data-year="2024" data-type="电影" data-category="喜剧精选">
+                    <span class="rank-number">75</span>
+                    <span class="rank-cover"><img src="./14.jpg" alt="余额不足" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>余额不足</strong>
+                        <em>2024 · 中国大陆 · 剧情 / 喜剧</em>
+                    </span>
+                    <span class="rank-score">热度 98.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0090.html" data-movie-card data-title="幸福是一条温暖的毛毯" data-search="幸福是一条温暖的毛毯 中国大陆 剧情 / 家庭 剧情佳作" data-year="2022" data-type="电影" data-category="剧情佳作">
+                    <span class="rank-number">76</span>
+                    <span class="rank-cover"><img src="./90.jpg" alt="幸福是一条温暖的毛毯" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>幸福是一条温暖的毛毯</strong>
+                        <em>2022 · 中国大陆 · 剧情 / 家庭</em>
+                    </span>
+                    <span class="rank-score">热度 98.6</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0624.html" data-movie-card data-title="灵异人形馆" data-search="灵异人形馆 日本 恐怖 / 悬疑 高清电影" data-year="2024" data-type="电影" data-category="高清电影">
+                    <span class="rank-number">77</span>
+                    <span class="rank-cover"><img src="./24.jpg" alt="灵异人形馆" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>灵异人形馆</strong>
+                        <em>2024 · 日本 · 恐怖 / 悬疑</em>
+                    </span>
+                    <span class="rank-score">热度 98.6</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0748.html" data-movie-card data-title="七月好风" data-search="七月好风 中国香港 剧情 / 家庭 欧美精选" data-year="2012" data-type="电影" data-category="欧美精选">
+                    <span class="rank-number">78</span>
+                    <span class="rank-cover"><img src="./148.jpg" alt="七月好风" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>七月好风</strong>
+                        <em>2012 · 中国香港 · 剧情 / 家庭</em>
+                    </span>
+                    <span class="rank-score">热度 99.1</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1533.html" data-movie-card data-title="纽约熟男寂寞日记" data-search="纽约熟男寂寞日记 美国 剧情, 都市, 情感 科幻奇幻" data-year="2023" data-type="剧集" data-category="科幻奇幻">
+                    <span class="rank-number">79</span>
+                    <span class="rank-cover"><img src="./33.jpg" alt="纽约熟男寂寞日记" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>纽约熟男寂寞日记</strong>
+                        <em>2023 · 美国 · 剧情, 都市, 情感</em>
+                    </span>
+                    <span class="rank-score">热度 98.8</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0858.html" data-movie-card data-title="尤物争春" data-search="尤物争春 中国大陆 剧情, 爱情, 家庭 热播剧集" data-year="2017" data-type="电视剧" data-category="热播剧集">
+                    <span class="rank-number">80</span>
+                    <span class="rank-cover"><img src="./108.jpg" alt="尤物争春" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>尤物争春</strong>
+                        <em>2017 · 中国大陆 · 剧情, 爱情, 家庭</em>
+                    </span>
+                    <span class="rank-score">热度 98.9</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0589.html" data-movie-card data-title="夏瓦·尼·格尔达里·拉尔" data-search="夏瓦·尼·格尔达里·拉尔 印度 奇幻 / 冒险 爱情青春" data-year="2025" data-type="电影" data-category="爱情青春">
+                    <span class="rank-number">81</span>
+                    <span class="rank-cover"><img src="./139.jpg" alt="夏瓦·尼·格尔达里·拉尔" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>夏瓦·尼·格尔达里·拉尔</strong>
+                        <em>2025 · 印度 · 奇幻 / 冒险</em>
+                    </span>
+                    <span class="rank-score">热度 98.5</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0827.html" data-movie-card data-title="超时空武士" data-search="超时空武士 日本 科幻古装 热播剧集" data-year="2023" data-type="剧集" data-category="热播剧集">
+                    <span class="rank-number">82</span>
+                    <span class="rank-cover"><img src="./77.jpg" alt="超时空武士" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>超时空武士</strong>
+                        <em>2023 · 日本 · 科幻古装</em>
+                    </span>
+                    <span class="rank-score">热度 98.6</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0366.html" data-movie-card data-title="理发店" data-search="理发店 中国大陆 剧情 / 喜剧 动作惊悚" data-year="2023" data-type="电影" data-category="动作惊悚">
+                    <span class="rank-number">83</span>
+                    <span class="rank-cover"><img src="./66.jpg" alt="理发店" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>理发店</strong>
+                        <em>2023 · 中国大陆 · 剧情 / 喜剧</em>
+                    </span>
+                    <span class="rank-score">热度 98.5</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0082.html" data-movie-card data-title="营地藏身处" data-search="营地藏身处 美国 惊悚，恐怖 亚洲剧场" data-year="2019" data-type="电影" data-category="亚洲剧场">
+                    <span class="rank-number">84</span>
+                    <span class="rank-cover"><img src="./82.jpg" alt="营地藏身处" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>营地藏身处</strong>
+                        <em>2019 · 美国 · 惊悚，恐怖</em>
+                    </span>
+                    <span class="rank-score">热度 98.6</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1034.html" data-movie-card data-title="妮娜的一切" data-search="妮娜的一切 西班牙 剧情 / 音乐 / 爱情 爱情青春" data-year="2026" data-type="电影" data-category="爱情青春">
+                    <span class="rank-number">85</span>
+                    <span class="rank-cover"><img src="./134.jpg" alt="妮娜的一切" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>妮娜的一切</strong>
+                        <em>2026 · 西班牙 · 剧情 / 音乐 / 爱情</em>
+                    </span>
+                    <span class="rank-score">热度 98.5</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1683.html" data-movie-card data-title="誓言永恒" data-search="誓言永恒 中国大陆 谍战悬疑 动作惊悚" data-year="2009" data-type="电视剧" data-category="动作惊悚">
+                    <span class="rank-number">86</span>
+                    <span class="rank-cover"><img src="./33.jpg" alt="誓言永恒" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>誓言永恒</strong>
+                        <em>2009 · 中国大陆 · 谍战悬疑</em>
+                    </span>
+                    <span class="rank-score">热度 99.3</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0552.html" data-movie-card data-title="太行骄子" data-search="太行骄子 中国大陆 历史传奇 欧美精选" data-year="2025" data-type="剧集" data-category="欧美精选">
+                    <span class="rank-number">87</span>
+                    <span class="rank-cover"><img src="./102.jpg" alt="太行骄子" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>太行骄子</strong>
+                        <em>2025 · 中国大陆 · 历史传奇</em>
+                    </span>
+                    <span class="rank-score">热度 98.4</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1072.html" data-movie-card data-title="浪漫俏娇娃" data-search="浪漫俏娇娃 美国 喜剧 / 爱情 热播剧集" data-year="2024" data-type="电影" data-category="热播剧集">
+                    <span class="rank-number">88</span>
+                    <span class="rank-cover"><img src="./22.jpg" alt="浪漫俏娇娃" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>浪漫俏娇娃</strong>
+                        <em>2024 · 美国 · 喜剧 / 爱情</em>
+                    </span>
+                    <span class="rank-score">热度 98.5</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1570.html" data-movie-card data-title="莽汉痴娘" data-search="莽汉痴娘 中国大陆 剧情 / 犯罪 高清电影" data-year="2024" data-type="电影" data-category="高清电影">
+                    <span class="rank-number">89</span>
+                    <span class="rank-cover"><img src="./70.jpg" alt="莽汉痴娘" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>莽汉痴娘</strong>
+                        <em>2024 · 中国大陆 · 剧情 / 犯罪</em>
+                    </span>
+                    <span class="rank-score">热度 98.6</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0182.html" data-movie-card data-title="爱是最重要的事" data-search="爱是最重要的事 法国 爱情 / 文艺 喜剧精选" data-year="2024" data-type="电影" data-category="喜剧精选">
+                    <span class="rank-number">90</span>
+                    <span class="rank-cover"><img src="./32.jpg" alt="爱是最重要的事" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>爱是最重要的事</strong>
+                        <em>2024 · 法国 · 爱情 / 文艺</em>
+                    </span>
+                    <span class="rank-score">热度 98.3</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1173.html" data-movie-card data-title="蝴蝶效应3：启示" data-search="蝴蝶效应3：启示 美国 科幻 / 惊悚 年度热榜" data-year="2009" data-type="电影" data-category="年度热榜">
+                    <span class="rank-number">91</span>
+                    <span class="rank-cover"><img src="./123.jpg" alt="蝴蝶效应3：启示" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>蝴蝶效应3：启示</strong>
+                        <em>2009 · 美国 · 科幻 / 惊悚</em>
+                    </span>
+                    <span class="rank-score">热度 99.1</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1069.html" data-movie-card data-title="杀手的品格" data-search="杀手的品格 韩国 动作 / 惊悚 爱情青春" data-year="2025" data-type="电影" data-category="爱情青春">
+                    <span class="rank-number">92</span>
+                    <span class="rank-cover"><img src="./19.jpg" alt="杀手的品格" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>杀手的品格</strong>
+                        <em>2025 · 韩国 · 动作 / 惊悚</em>
+                    </span>
+                    <span class="rank-score">热度 98.4</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1320.html" data-movie-card data-title="昨日杀神" data-search="昨日杀神 日本 动作、科幻、赛博朋克 高清电影" data-year="2028" data-type="OVA" data-category="高清电影">
+                    <span class="rank-number">93</span>
+                    <span class="rank-cover"><img src="./120.jpg" alt="昨日杀神" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>昨日杀神</strong>
+                        <em>2028 · 日本 · 动作、科幻、赛博朋克</em>
+                    </span>
+                    <span class="rank-score">热度 98.3</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1733.html" data-movie-card data-title="龙飞凤舞" data-search="龙飞凤舞 中国香港 动作，喜剧 欧美精选" data-year="2025" data-type="电影" data-category="欧美精选">
+                    <span class="rank-number">94</span>
+                    <span class="rank-cover"><img src="./83.jpg" alt="龙飞凤舞" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>龙飞凤舞</strong>
+                        <em>2025 · 中国香港 · 动作，喜剧</em>
+                    </span>
+                    <span class="rank-score">热度 98.5</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1796.html" data-movie-card data-title="偷天换日" data-search="偷天换日 美国 动作, 犯罪, 悬疑 喜剧精选" data-year="2025" data-type="剧集" data-category="喜剧精选">
+                    <span class="rank-number">95</span>
+                    <span class="rank-cover"><img src="./146.jpg" alt="偷天换日" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>偷天换日</strong>
+                        <em>2025 · 美国 · 动作, 犯罪, 悬疑</em>
+                    </span>
+                    <span class="rank-score">热度 98.5</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0560.html" data-movie-card data-title="少男心事" data-search="少男心事 中国香港 剧情，家庭 动作惊悚" data-year="2019" data-type="电影" data-category="动作惊悚">
+                    <span class="rank-number">96</span>
+                    <span class="rank-cover"><img src="./110.jpg" alt="少男心事" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>少男心事</strong>
+                        <em>2019 · 中国香港 · 剧情，家庭</em>
+                    </span>
+                    <span class="rank-score">热度 98.5</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0119.html" data-movie-card data-title="城堡岩第一季" data-search="城堡岩第一季 美国 恐怖 / 悬疑 动作惊悚" data-year="2024" data-type="剧集" data-category="动作惊悚">
+                    <span class="rank-number">97</span>
+                    <span class="rank-cover"><img src="./119.jpg" alt="城堡岩第一季" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>城堡岩第一季</strong>
+                        <em>2024 · 美国 · 恐怖 / 悬疑</em>
+                    </span>
+                    <span class="rank-score">热度 98.2</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1676.html" data-movie-card data-title="谈话头" data-search="谈话头 中国香港 犯罪 / 黑帮 / 心理 欧美精选" data-year="2026" data-type="电影" data-category="欧美精选">
+                    <span class="rank-number">98</span>
+                    <span class="rank-cover"><img src="./26.jpg" alt="谈话头" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>谈话头</strong>
+                        <em>2026 · 中国香港 · 犯罪 / 黑帮 / 心理</em>
+                    </span>
+                    <span class="rank-score">热度 98.4</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-0109.html" data-movie-card data-title="超完美男孩" data-search="超完美男孩 美国 科幻, 悬疑 剧情佳作" data-year="2023" data-type="剧集" data-category="剧情佳作">
+                    <span class="rank-number">99</span>
+                    <span class="rank-cover"><img src="./109.jpg" alt="超完美男孩" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>超完美男孩</strong>
+                        <em>2023 · 美国 · 科幻, 悬疑</em>
+                    </span>
+                    <span class="rank-score">热度 98.2</span>
+                </a>
+                <a class="rank-item" href="./movie/movie-1268.html" data-movie-card data-title="橡树，十万火急" data-search="橡树，十万火急 法国 / 比利时 灾难 / 剧情 高清电影" data-year="2026" data-type="电影" data-category="高清电影">
+                    <span class="rank-number">100</span>
+                    <span class="rank-cover"><img src="./68.jpg" alt="橡树，十万火急" loading="lazy" onerror="this.style.display='none'"></span>
+                    <span class="rank-copy">
+                        <strong>橡树，十万火急</strong>
+                        <em>2026 · 法国 / 比利时 · 灾难 / 剧情</em>
+                    </span>
+                    <span class="rank-score">热度 98.3</span>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="brand footer-logo">
+                    <span class="brand-mark">▶</span>
+                    <span>精品高清影视</span>
+                </div>
+                <p>提供欧美精品高清视频免费观看服务，支持海量资源在线流畅播放，每日更新精选内容推荐栏目。</p>
+            </div>
+            <div class="footer-links">
+                <h2>频道入口</h2>
+                    <a href="./category/europe-us.html">欧美精选</a>
+                    <a href="./category/hd-movies.html">高清电影</a>
+                    <a href="./category/hot-series.html">热播剧集</a>
+                    <a href="./category/action-thriller.html">动作惊悚</a>
+                    <a href="./category/romance-youth.html">爱情青春</a>
+                    <a href="./category/comedy-variety.html">喜剧精选</a>
+                <a href="./ranking.html">热播榜</a>
+                <a href="./movies.html">完整片库</a>
+            </div>
+            <div class="footer-links">
+                <h2>精选服务</h2>
+                <a href="./index.html#featured">精品推荐</a>
+                <a href="./index.html#latest">最新上线</a>
+                <a href="./categories.html">分类浏览</a>
+                <a href="./movies.html">筛选搜索</a>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 精品高清影视. 畅享海量资源在线播放。</div>
+    </footer>
+    <button class="back-top" type="button" data-back-top aria-label="返回顶部">↑</button>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
